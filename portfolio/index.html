@@ -1,35 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<!--This metatag instructs the browser.  Telling it how to control the page's dimentions!-->
+	<meta name="viewport" content="width=device-width, intial-scale=1">
 	<!--This is the link to cuse bootstrap!-->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<!--This is the link to use your Style.css page!-->
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="style.css">
 	<title> Ju's Portfolio</title>
 </head>
 <body>
 	<div class="container">
-		<div class="row">
-			<div class="col-md-6 ">
-				<img src="portfoliopictures/jusunglogo.png" class="img-responsive" alt="img-responsive image">
+		<header>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="logo">
+						<img src="portfoliopictures/jusunglogo.png" class="img-responsive" alt="img-responsive image">
+					</div>
+				</div>
+				<div class="col-md-6 text-right">
+					<h1 class="text-uppercase">Ju Sung</h1>
+					<h3>Full Stack Developer Student</h3>
+				</div>
 			</div>
-			<div class="col-md-6 text-right">
-				<h1 class="text-uppercase">Ju Sung</h1>
-				<h3>Full Stack Developer Student</h3>
+		</header>
+		<main>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="featured-picture">
+						<img src="https://scontent.fsnc1-1.fna.fbcdn.net/v/t31.0-0/q89/c0.82.853.316/p480x480/12778770_10153789534875700_4783492895571587469_o.jpg?oh=1792ba72f5f86d5189691fb61d806206&oe=59429B48" class="img-responsive" alt="img-responsive image">
+					</div>
+				</div>
 			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-12">
-				<img src="https://scontent.fsnc1-1.fna.fbcdn.net/v/t31.0-0/q89/c0.82.853.316/p480x480/12778770_10153789534875700_4783492895571587469_o.jpg?oh=1792ba72f5f86d5189691fb61d806206&oe=59429B48" class="img-responsive" alt="img-responsive image">
+		</main>
+		<nav>
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Featured Projects</h2>
+				</div>
 			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-12">
-				<h2>Featured Projects</h2>
-			</div>
-		</div>
-		<div>
 			<div class="row">
 				<div class="col-md-6">
 					<img src="https://eastridgecenter.com/wp-content/uploads/2016/03/Movie-Releases.jpg" class="img-responsive project-image" alt="Responsive image">
@@ -45,7 +55,7 @@
 					
 				</div>
 			</div>
-		</div>
+		</nav>
 			
 	</div>
 </body>

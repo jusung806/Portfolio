@@ -1,37 +1,37 @@
-body{
+body {
 	font-family: cursive;
 	background-color: DimGrey;
 
 }
 
 
-h1{
-	color: #00FF00;
+h1 {
+	color: #00ff00;
 }
 
 
-h3{
-	color: #00FF00;
+h3 {
+	color: #00ff00;
 }
 
 
-h2{
-	color: #00FF00;
+h2 {
+	color: #00ff00;
 }
 
 
-a:link{
-	color: #9400D3;
+a:link {
+	color: #9400d3;
 }
 
 
-a:visited{
-	color: #FF1493;
+a:visited {
+	color: #ff1493;
 }
 
 
-a:hover{
-	color: #00BFFF;
+a:hover {
+	color: #00bfff;
 }
 
 
@@ -42,8 +42,18 @@ a:hover{
     	box-sizing: border-box;
 }
 
-.project-image{
+.project-image {
 	max-width: 400px;
 	min-height: 300px;
 }
 
+
+.logo {
+	max-width: 100px;
+	min-height: 100px;
+}
+
+.featured-picture {
+	max-width: 1140px;
+	max-height: 350px;
+}

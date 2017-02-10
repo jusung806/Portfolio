@@ -1,0 +1,49 @@
+body{
+	font-family: cursive;
+	background-color: DimGrey;
+
+}
+
+
+h1{
+	color: #00FF00;
+}
+
+
+h3{
+	color: #00FF00;
+}
+
+
+h2{
+	color: #00FF00;
+}
+
+
+a:link{
+	color: #9400D3;
+}
+
+
+a:visited{
+	color: #FF1493;
+}
+
+
+a:hover{
+	color: #00BFFF;
+}
+
+
+*{
+	-webkit-box-sizing: border-box;
+    	-moz-box-sizing: border-box;
+    	-ms-box-sizing: border-box;
+    	box-sizing: border-box;
+}
+
+.project-image{
+	max-width: 400px;
+	min-height: 300px;
+}
+

@@ -47,3 +47,13 @@ a:hover{
 	min-height: 300px;
 }
 
+
+.logo{
+	max-width: 100px;
+	min-height: 100px;
+}
+
+.featured-picture{
+	max-width: 1140px;
+	max-height: 350px;
+}
